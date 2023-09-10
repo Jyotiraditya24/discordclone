@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button"
 
 export default function Home() {
   return (
-    <p className='bg-red-200'>Discord Clone <Button variant="destructive">Hello</Button> </p>
+    <div>
+      <h3>This is a protected Route</h3>
+    </div>
   )
 }
